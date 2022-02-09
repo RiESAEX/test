@@ -33,13 +33,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: A clear and concise description of actual behavior.
-    validations:
-      required: false
-  - type: textarea
     id: version
     attributes:
       label: Version
