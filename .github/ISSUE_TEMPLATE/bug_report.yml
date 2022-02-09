@@ -34,11 +34,6 @@ body:
       required: true
   - type: markdown
     id: screenshots
-    attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
   - type: textarea
     id: version
     attributes:
