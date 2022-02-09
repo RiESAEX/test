@@ -51,8 +51,3 @@ body:
     attributes:
       label: Additional context
       placeholder: Add any other context about the problem here.
-textarea
-    id: addition
-    attributes:
-      label: Additional context
-      placeholder: Add any other context about the problem here.
