@@ -8,6 +8,7 @@ body:
       label: Describe the bug
       description: |
         A clear and concise description of what the bug is.
+        If applicable, add screenshots to help explain your problem.
     validations:
       required: true
   - type: textarea
@@ -16,10 +17,10 @@ body:
       label: To Reproduce
       description: |
         Steps to reproduce the behavior:
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+        1. 
+        2. 
+        3. 
+        4. 
   - type: textarea
     id: code
     attributes: 
@@ -40,9 +41,17 @@ body:
          - OS: [e.g. iOS]
          - Browser [e.g. chrome, safari]
          - Version [e.g. 22]
+         - Node
+         - fes -V
+         - package.json
     validations:
       required: true
   - type: textarea
+    id: addition
+    attributes:
+      label: Additional context
+      placeholder: Add any other context about the problem here.
+textarea
     id: addition
     attributes:
       label: Additional context
